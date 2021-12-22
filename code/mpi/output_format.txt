@@ -1,0 +1,22 @@
+Description of output format produced by MPI code:
+
+
+"MPI", 
+	size, 
+	dataset_size, 
+	num_features, 
+	num_labels, 
+
+whole_program_time, 
+	master_init_time, 
+	master_send_time,
+
+worker_recv_time_max,
+      worker_recv_time_min,
+      worker_recv_time_avg,
+      worker_unflatten_time_max,
+      worker_unflatten_time_min,
+      worker_unflatten_time_avg,
+      worker_main_algorithm_time_max,
+      worker_main_algorithm_time_min,
+      worker_main_algorithm_time_avg
